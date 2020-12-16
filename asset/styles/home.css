@@ -1,0 +1,768 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    outline: none;
+}
+
+
+.first{
+    background-color: blue;
+    width: 100%;
+    z-index: 600;
+    position: fixed;
+}
+
+
+.para{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 3px;
+}
+
+
+.first-p{
+    font-style: italic;
+}
+
+
+.but{
+    background-color: green;
+    padding: 8px  15px;
+    color: white;
+    border: none;
+    font-size: 20px;
+}
+
+.but:hover{
+    cursor: pointer;
+}
+
+ .nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 28px;
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 500;
+    border-bottom: 2px solid rgb(224, 223, 223);
+}
+
+
+.nav-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.hd-img{
+    width: 150px;
+    height: auto;
+}
+
+
+.nav-links{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+}
+
+.tool-bar{
+    width: 100%;
+    height: 30px;
+}
+
+.up{ 
+    float: right;
+    color: black;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 47px;
+    font-family: sans-serif;
+}
+
+.down{
+    width: 100%;
+}
+
+
+.down ul{
+    float: right;
+    margin-right: 20px;
+}
+
+
+.down ul li{
+    display: inline-flex;
+    margin-right: 20px;
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.down ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.down ul li .get-started {
+    background-color: blue;
+    padding: 10px  20px;
+    color: white;
+}
+
+
+.down ul li ul {
+    display: none;
+    width: 500px;
+    background-color: blue;
+    position: absolute;
+    top: 37px;
+    left: 0;
+    z-index: 500;
+}
+
+.down ul li ul li a{
+    color: white;
+    display: inline-block;
+    flex-flow: row nowrap;
+    font-size: 12px;
+}
+
+.down ul li:hover ul{
+    display: block;
+}
+
+.down ul li ul:hover li{
+    display: block;
+}
+
+.down ul li ul li ul li ul {
+    display: none;
+    width: 500px;
+    background-color: blue;
+    position: absolute;
+    top: 37px;
+    left: 300px;
+}
+
+.bg-img{
+    width: 100%;
+    height: 870px;
+    position: relative;
+}
+
+.img{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    top: 122px;
+    left:0px;
+    bottom:0px;
+}
+
+
+.enabling{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    padding-top: 250px;
+    font-size: 50px;
+    color: white;
+}
+
+.text{
+    text-align: center;
+    font-size: 35px;
+    font-family: "Montserrat",sans-serif;
+    padding-top: 60px;
+    color: white;
+}
+
+.message{
+    position: fixed;
+    background-color: white;
+    height: 60px;
+    width: 60px;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px black;
+    cursor: pointer;
+    z-index: 700;
+}
+
+.icon{
+    position: absolute;
+    top: 30%;
+    right: 26%;
+}
+
+.pix{
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+}
+
+.pics{
+    width: 19%;
+    height: auto;
+    margin-top: 39px;
+    padding-left: 7%;
+    margin-right: -15px;
+}
+
+
+.clients{
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 45%;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 10px  20px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.clients:hover{
+    color: rgb(175, 173, 173);
+}
+
+.container{
+    width: 86%;
+    height: 300px;
+    margin-left: 7%;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    display: block;
+    overflow: hidden;
+}
+
+.line-1{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 80px;
+    animation: slide 15s ease infinite;
+}
+
+.line-2{
+    width:100%;
+    height: 300px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 80px;
+    bottom: 100px;
+}
+
+
+.line-3{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    padding-top: 80px; 
+}
+
+@keyframes slide{
+    0%{margin-top: -810px;}
+    15%{margin-top: -620px;}
+    40%{margin-top: -620px;}
+    55%{margin-top: -320px;}
+    65%{margin-top: -320px;}
+    80%{margin-top: 0px;}
+    100%{margin-top: 0px;}
+}
+
+.next{
+    width: 90%;
+    height:350px;
+    margin-left: 5%;
+    background-color: white;
+}
+
+.head{
+    text-align: center;
+    padding: 60px;
+    font-size: 50px;
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+
+.par{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 0px 100px
+    
+}
+
+.container2{
+    width: 100%;
+    background-color:white;
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 200px;
+}
+
+.cont{
+    width: 45%;
+    height: 100%;
+    background-color: #ffff;
+    margin-left: 4%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(167, 165, 165);
+}
+
+.ainer{
+    width: 45%;
+    height: 100%;
+    background-color: #ffff;
+    margin-left: 3%;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(167, 165, 165);
+}
+
+.main{
+    width: 100%;
+    height: 300px;
+    background-color: #ffff;
+    cursor: pointer;
+}
+
+.second{
+    width: 100%;
+    height: 300px;
+    background-color: #ffff;
+    cursor: pointer;
+}
+
+.second:hover,.main:hover{
+    color: rgb(136, 132, 132);
+    transition: 0.5s ease;
+}
+
+.main1{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 39%;
+}
+
+.header1{
+    text-align: center;
+    padding-top: 15px;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.para1{
+    text-align: center;
+    padding: 0px 13px;
+    font-family: sans-serif;
+    font-size: 25px;
+    padding-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.one{
+    height: 150px;
+    background-color:white;
+    text-align: center;
+    border-top: 1px solid grey;
+    display: none;
+}
+
+.one a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.one a:hover{
+    color: rgb(136, 132, 132);
+    transition: 1s ease;
+}
+
+.two{
+    height: 37px;
+    background-color:white;
+    text-align: center;
+    border-top: 1px solid grey;
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.two a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+
+}
+
+.two a:hover{
+    color: rgb(136, 132, 132);
+    transition: 1s ease;
+}
+
+.weekly{
+    width: 100%;
+    height: 130px;
+    margin-top: 30px;
+    background-color: blue;
+}
+
+.weekly-txt{
+    text-align: center;
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+.img-container{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(white,rgb(202, 200, 200));
+}
+
+.img-main{
+    margin-top: 40px;
+    width: 100%;
+    height: 250px;
+}
+.img-one{
+    width: 30%;
+    height: 100%;
+    margin-left: 35%;
+}
+
+.second-img{
+    width: 100%;
+    height: 150px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: row nowrap;
+}
+
+.img-two,.img-three,.img-four{
+    height: 100%;
+    width: 20%;
+    margin-left: 7%;
+    margin-right: 6%;
+}
+
+.div-five{
+    padding: 11px 15px;
+    background-color: rgb(241, 239, 239);
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 60px;
+    margin-left: 47%;
+    cursor: pointer;
+}
+
+.off{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.div-five:hover{
+    background-color: #ffff;
+    color: rgb(37, 37, 49);
+}
+
+.recent{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.three-div{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 80%;
+    height: 280px;
+    margin-top: 40px;
+    margin-left: 10%;
+    background-color: white;
+    border-bottom: 2px solid rgb(209, 205, 205);
+}
+
+.first-div{
+    width: 30%;
+    height: 260px;
+    background-color: white;
+    border: 2px solid rgb(161, 160, 160);
+}
+.show{
+    display: block;
+}
+
+.second-div{
+    width: 30%;
+    height: 260px;
+    background-color: white;
+    color: black;
+    margin-left: 6%;
+    border: 2px solid rgb(161, 160, 160);
+}
+
+.third-div{
+    width: 30%;
+    height: 260px;
+    background-color: white;
+    margin-left: 6%;
+    border: 2px solid rgb(161, 160, 160);
+}
+
+.div-img{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.display{
+    background-color: rgb(128, 128, 253);
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 600px;
+    opacity: 0.7;
+    display: none; 
+}
+
+.first-div:hover .display{
+    display: flex;
+    color: blue;
+}
+
+.first-div:hover .one-txt{
+    color: blue;
+}
+
+.second-div:hover .display{
+    display: flex;
+    color: blue;
+}
+
+.second-div:hover .one-txt{
+    color: blue;
+}
+
+.third-div:hover .display{
+    display: flex;
+    color: blue;
+}
+
+.third-div:hover .one-txt{
+    color: blue;
+}
+
+.one-txt{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.two-txt{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+    color: rgb(146, 145, 145)
+}
+
+.view-blog{
+    width: 170px;
+    height: 40px;
+    padding: 9px 20px ;
+    background-color: white;
+    box-shadow: 0px 0px 6px black;
+    margin-top: 50px;
+    margin-left: 45%;
+    border-radius: 10px;
+}
+
+.blog{
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+.do{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    margin-top: 80px;
+    position: relative;
+}
+
+.great-img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.things-txt{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    margin-top: 100px;
+}
+
+.txt-border{
+    width: 130px;
+    height: 50px;
+    padding: 13px 23px;
+    border: 4px solid white;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-left: 46%;
+}
+
+.a-txt{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.flutter{
+    display: flex;
+    flex-flow: row nowrap;
+    margin-top: 50px;
+    width: 100%;
+    height: 250px;
+    border-bottom: 1px solid rgb(184, 181, 181);
+    background-color: white;
+}
+
+.num-one{
+    width: 20%;
+    height: 100%;
+    background-color: white;
+}
+
+.num-two{
+    width: 27%;
+    height: 100%;
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: rgb(155, 151, 151);
+    padding-top: 35px;
+    padding-right: 10px;
+}
+
+.num-three{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    padding-left: 20px;
+    padding-top: 35px;
+    font-family: sans-serif;
+    font-size: 20px;
+    
+}
+
+.num-four{
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 35px;
+    color: rgb(155, 151, 151);
+    padding-left: 35px;
+}
+
+.a{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: blue;
+}
+
+.a-button{
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+}
+
+.email{
+    width: 98%;
+    padding: 10px 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(77, 76, 76);
+    font-family: sans-serif;
+}
+
+.names{
+    width: 48%;
+    margin-top: 7px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 10px 5px;
+    border-radius: 4px;
+    border: 1px solid rgb(77, 76, 76);
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.button{
+    border: 2px solid blue;
+    width: 110px;
+    padding: 5px 7px;
+    margin-top: 20px;
+}
+
+.end{
+    width: 100px;
+    height: 60px;
+    font-size: 10px;
+    font-family: sans-serif;
+    color: rgb(141, 140, 140);
+    margin-left: 48%;
+    padding-top: 40px;
+}
