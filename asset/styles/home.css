@@ -8,7 +8,7 @@
 
 
 .first{
-    background-color: blue;
+    background-color: #13661e;
     width: 100%;
     z-index: 600;
     position: fixed;
@@ -19,7 +19,7 @@
     color: white;
     font-family: sans-serif;
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     padding-top: 3px;
 }
 
@@ -30,11 +30,11 @@
 
 
 .but{
-    background-color: green;
+    background-color: #22ca22;
     padding: 8px  15px;
     color: white;
     border: none;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .but:hover{
@@ -73,19 +73,15 @@
     background-color: white;
 }
 
-.tool-bar{
-    width: 100%;
-    height: 30px;
-}
-
 .up{ 
     float: right;
     color: black;
     padding-top: 10px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 15px;
     margin-right: 47px;
     font-family: sans-serif;
+    border-bottom: 2px dotted black;
 }
 
 .down{
@@ -96,6 +92,7 @@
 .down ul{
     float: right;
     margin-right: 20px;
+    padding-top: 26px;
 }
 
 
@@ -104,60 +101,43 @@
     margin-right: 20px;
     position: relative;
     padding: 10px;
-    font-size: 15px;
 }
 
 .down ul li a{
     text-decoration: none;
-    color: black;
+    color: #13661e;
     font-family: sans-serif;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .down ul li .get-started {
-    background-color: blue;
+    background-color: #13661e;
     padding: 10px  20px;
     color: white;
 }
 
 
 .down ul li ul {
-    display: none;
-    width: 500px;
-    background-color: blue;
+    width: 100%;
+    background-color: #13661e;
+    padding-top: 0px;
     position: absolute;
-    top: 37px;
-    left: 0;
-    z-index: 500;
+    top: 33px;
+    display: none;
 }
 
-.down ul li ul li a{
-    color: white;
-    display: inline-block;
-    flex-flow: row nowrap;
-    font-size: 12px;
-}
 
 .down ul li:hover ul{
     display: block;
 }
 
-.down ul li ul:hover li{
-    display: block;
-}
-
-.down ul li ul li ul li ul {
-    display: none;
-    width: 500px;
-    background-color: blue;
-    position: absolute;
-    top: 37px;
-    left: 300px;
+.down ul li ul li a{
+    color: white;
 }
 
 .bg-img{
     width: 100%;
-    height: 870px;
+    height: 600px;
     position: relative;
 }
 
@@ -175,16 +155,16 @@
     text-align: center;
     font-size: 40px;
     font-family: sans-serif;
-    padding-top: 250px;
-    font-size: 50px;
+    padding-top: 150px;
+    font-size: 35px;
     color: white;
 }
 
 .text{
     text-align: center;
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Montserrat",sans-serif;
-    padding-top: 60px;
+    padding-top: 30px;
     color: white;
 }
 
@@ -207,38 +187,198 @@
     right: 26%;
 }
 
+.message-cont{
+    background-color: blue;
+    width: 350px;
+    height: 30%;
+    position: fixed;
+    right: 80px;
+    bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    z-index: 300;
+    display: none;
+}
+
+.three-div{
+    display: flex;
+    flex-flow: row nowrap;
+    width: 90%;
+    /* height: 320px; */
+    margin-top: 40px;
+    margin-left:5%;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+.first-div{
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    border: 2px solid rgb(161, 160, 160);
+}
+
+.second-div{
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    color: black;
+    margin-left: 6%;
+    border: 2px solid rgb(161, 160, 160);
+}
+
+.third-div{
+    width: 350px;
+    height: 270px;
+    background-color: white;
+    margin-left: 6%;
+    border: 2px solid rgb(161, 160, 160);
+}
+
+.div-img{
+    width: 96%;
+    margin-left: 2%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.display{
+    background-color: rgb(128, 128, 253);
+    position: absolute;
+    bottom: 4px;
+    width: 100%;
+    height: 98%;
+    opacity: 0.7;
+    display: none; 
+}
+
+.display-icon{
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    top: 70px;
+    left: 110px;
+    display: none;
+}
+
+.first-div:hover .display{
+    display: block;
+    color: blue;
+}
+
+.first-div:hover .one-txt{
+    color: blue;
+}
+
+.second-div:hover .display{
+    display: flex;
+    color: blue;
+}
+
+.second-div:hover .one-txt{
+    color: blue;
+}
+
+.third-div:hover .display{
+    display: flex;
+    color: blue;
+}
+
+.third-div:hover .one-txt{
+    color: blue;
+}
+
+.one-txt{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+
+.two-txt{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+    color: rgb(146, 145, 145)
+}
+
 .pix{
     background-color: white;
     width: 100%;
-    display: inline-block;
+    display: inline-flex;
+    margin-bottom: 90px;
 }
 
 .pics{
     width: 19%;
     height: auto;
     margin-top: 39px;
-    padding-left: 7%;
-    margin-right: -15px;
+    padding-left: 8%;
+    margin-right: -10px;
+    position: relative;
+}
+
+.service1{
+    font-family: sans-serif;
+    position: absolute;
+    left: 12%;
+    top: 1170px;  
+    z-index: 300;
+    
+}
+
+.service2{
+    font-family: sans-serif;
+    position: absolute;
+    left: 30%;
+    top: 1170px;
+}
+
+.service3{
+    font-family: sans-serif;
+    position: absolute;
+    left: 48%;
+    top: 1170px;
+}
+
+.service4{
+    font-family: sans-serif;
+    position: absolute;
+    left: 66.5%;
+    top: 1170px;
+}
+
+.service5{
+    font-family: sans-serif;
+    position: absolute;
+    left: 85%;
+    top: 1170px;
 }
 
 
 .clients{
     background-color: white;
-    width: 200px;
+    width: 170px;
     height: 40px;
     margin-top: 40px;
-    margin-left: 45%;
+    margin-left: 44%;
     margin-bottom: 30px;
-    font-size: 20px;
-    font-family: sans-serif;
-    text-align: center;
     padding: 10px  20px;
     box-shadow: 0px 0px 5px black;
     border-radius: 7px;
-    cursor: pointer;
 }
 
-.clients:hover{
+.a-clients{
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: black;
+}
+
+.a-clients:hover{
     color: rgb(175, 173, 173);
 }
 
@@ -250,7 +390,18 @@
     border-bottom: 1px solid grey;
     background-color: white;
     display: block;
-    overflow: hidden;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.abs-container{
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
 }
 
 .line-1{
@@ -258,7 +409,7 @@
     height: 300px;
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-family: sans-serif;
     padding-top: 80px;
     animation: slide 15s ease infinite;
@@ -269,7 +420,7 @@
     height: 300px;
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-family: sans-serif;
     padding-top: 80px;
     bottom: 100px;
@@ -281,9 +432,9 @@
     height: 300px;
     text-align: center;
     color: black;
-    font-size: 30px;
+    font-size: 25px;
     font-family: sans-serif;
-    padding-top: 80px; 
+    padding-top: 80px;
 }
 
 @keyframes slide{
@@ -306,7 +457,7 @@
 .head{
     text-align: center;
     padding: 60px;
-    font-size: 50px;
+    font-size: 35px;
     margin-left: 30px;
     font-family: sans-serif;
 }
@@ -314,7 +465,7 @@
 .par{
     text-align: center;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     padding: 0px 100px
     
 }
@@ -324,7 +475,7 @@
     background-color:white;
     display: flex;
     flex-flow: row nowrap;
-    margin-top: 200px;
+    margin-top: 60px;
 }
 
 .cont{
@@ -376,14 +527,14 @@
     text-align: center;
     padding-top: 15px;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 23px;
 }
 
 .para1{
     text-align: center;
     padding: 0px 13px;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     padding-top: 15px;
     margin-left: 20px;
     margin-right: 20px;
@@ -441,7 +592,7 @@
     width: 100%;
     height: 130px;
     margin-top: 30px;
-    background-color: blue;
+    background-color: #13661e;
 }
 
 .weekly-txt{
@@ -455,7 +606,7 @@
 .img-container{
     width: 100%;
     height: 600px;
-    background: linear-gradient(white,rgb(202, 200, 200));
+    background-color: #ffff;
 }
 
 .img-main{
@@ -486,7 +637,7 @@
 
 .div-five{
     padding: 11px 15px;
-    background-color: rgb(241, 239, 239);
+    background-color: rgb(167, 164, 164);
     width: 120px;
     height: 40px;
     text-align: center;
@@ -503,8 +654,12 @@
 }
 
 .div-five:hover{
-    background-color: #ffff;
-    color: rgb(37, 37, 49);
+    background-color: #13661e;
+}
+
+.div-five:hover .off{
+    background-color: #13661e;
+    color: #ffff;
 }
 
 .recent{
@@ -514,128 +669,10 @@
     font-family: sans-serif;
 }
 
-.three-div{
-    display: flex;
-    flex-flow: row nowrap;
-    width: 80%;
-    height: 280px;
-    margin-top: 40px;
-    margin-left: 10%;
-    background-color: white;
-    border-bottom: 2px solid rgb(209, 205, 205);
-}
-
-.first-div{
-    width: 30%;
-    height: 260px;
-    background-color: white;
-    border: 2px solid rgb(161, 160, 160);
-}
-.show{
-    display: block;
-}
-
-.second-div{
-    width: 30%;
-    height: 260px;
-    background-color: white;
-    color: black;
-    margin-left: 6%;
-    border: 2px solid rgb(161, 160, 160);
-}
-
-.third-div{
-    width: 30%;
-    height: 260px;
-    background-color: white;
-    margin-left: 6%;
-    border: 2px solid rgb(161, 160, 160);
-}
-
-.div-img{
-    width: 96%;
-    margin-left: 2%;
-    margin-top: 2%;
-    position: relative;
-}
-
-.display{
-    background-color: rgb(128, 128, 253);
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 600px;
-    opacity: 0.7;
-    display: none; 
-}
-
-.first-div:hover .display{
-    display: flex;
-    color: blue;
-}
-
-.first-div:hover .one-txt{
-    color: blue;
-}
-
-.second-div:hover .display{
-    display: flex;
-    color: blue;
-}
-
-.second-div:hover .one-txt{
-    color: blue;
-}
-
-.third-div:hover .display{
-    display: flex;
-    color: blue;
-}
-
-.third-div:hover .one-txt{
-    color: blue;
-}
-
-.one-txt{
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 14px;
-    margin-top: 5px;
-}
-
-
-.two-txt{
-    font-family: sans-serif;
-    text-align: center;
-    font-size: 10px;
-    margin-top: 5px;
-    color: rgb(146, 145, 145)
-}
-
-.view-blog{
-    width: 170px;
-    height: 40px;
-    padding: 9px 20px ;
-    background-color: white;
-    box-shadow: 0px 0px 6px black;
-    margin-top: 50px;
-    margin-left: 45%;
-    border-radius: 10px;
-}
-
-.blog{
-    color: black;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-size: 20px;
-}
-
 .do{
     width: 100%;
     height: 400px;
     background-color: black;
-    margin-top: 80px;
     position: relative;
 }
 
@@ -648,9 +685,9 @@
 .things-txt{
     text-align: center;
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 43px;
     color: white;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 .txt-border{
@@ -659,8 +696,8 @@
     padding: 13px 23px;
     border: 4px solid white;
     border-radius: 4px;
-    margin-top: 70px;
-    margin-left: 46%;
+    margin-top: 60px;
+    margin-left: 45%;
 }
 
 .a-txt{
@@ -721,12 +758,12 @@
 .a{
     font-family: sans-serif;
     text-decoration: none;
-    color: blue;
+    color: #13661e;
 }
 
 .a-button{
     font-size: 15px;
-    color: blue;
+    color: #13661e;
     text-decoration: none;
 }
 
@@ -751,7 +788,7 @@
 }
 
 .button{
-    border: 2px solid blue;
+    border: 2px solid #13661e;
     width: 110px;
     padding: 5px 7px;
     margin-top: 20px;
