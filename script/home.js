@@ -1,5 +1,3 @@
-
-
 function one() {
     document.getElementById("content").classList.toggle("show");
 }
