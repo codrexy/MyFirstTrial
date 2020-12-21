@@ -100,7 +100,7 @@
     display: inline-flex;
     margin-right: 20px;
     position: relative;
-    padding: 5px 0;
+    padding: 5px 5px;
 }
 
 .down ul li a{
@@ -157,19 +157,15 @@
     animation: image 15s ease infinite;
 }
 
-.myslides{
-    display: none;
-}
 
-
-@keyframes image {
+/* @keyframes image {
     0%{margin-left: -3000px;}
     20%{margin-left: -3000px;}
     40%{margin-left: -1350px;}
     60%{margin-left: -1350px;}
     80%{margin-left: 0px;}
     100%{margin-left: 0px;}
-}
+} */
 
 
 .enabling{
@@ -208,12 +204,31 @@
     right: 26%;
 }
 
+.our-ser{
+    width: 100%;
+    height: 100px;
+    background-color: #ffff;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.serv{
+    color: #13661e;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .three-div{
     display: flex;
     flex-flow: row nowrap;
-    width: 90%;
+    width: 80%;
+    margin-left: 10%;
     margin-top: 40px;
-    margin-left:5%;
     margin-bottom: 20px;
     background-color: white;
 }
@@ -223,6 +238,7 @@
     height: 270px;
     background-color: white;
     border: 2px solid rgb(161, 160, 160);
+
 }
 
 .second-div{
@@ -230,7 +246,7 @@
     height: 270px;
     background-color: white;
     color: black;
-    margin-left: 6%;
+    margin-left: 7%;
     border: 2px solid rgb(161, 160, 160);
 }
 
@@ -318,13 +334,18 @@
     margin-bottom: 90px;
 }
 
-.pics{
+.partner1{
     width: 19%;
     height: auto;
     margin-top: 39px;
     padding-left: 8%;
     margin-right: -10px;
     position: relative;
+}
+
+.part-txt{
+    text-align: center;
+    font-family: sans-serif;
 }
 
 .service1{
@@ -366,15 +387,13 @@
 
 
 .clients{
-    background-color: white;
+    background-color: #13661e;
     width: 170px;
     height: 40px;
     margin-top: 40px;
     margin-left: 44%;
     margin-bottom: 30px;
-    padding: 10px  20px;
-    box-shadow: 0px 0px 5px black;
-    border-radius: 7px;
+    padding: 10px  20px;  
 }
 
 .a-clients{
@@ -382,7 +401,7 @@
     text-decoration: none;
     font-size: 18px;
     font-family: sans-serif;
-    color: black;
+    color: white;
 }
 
 .a-clients:hover{
@@ -440,11 +459,11 @@
 }
 
 @keyframes slide{
-    0%{margin-top: -810px;}
-    15%{margin-top: -620px;}
-    40%{margin-top: -620px;}
-    55%{margin-top: -320px;}
-    65%{margin-top: -320px;}
+    0%{margin-top: -780px;}
+    15%{margin-top: -580px;}
+    40%{margin-top: -580px;}
+    55%{margin-top: -300px;}
+    65%{margin-top: -300px;}
     80%{margin-top: 0px;}
     100%{margin-top: 0px;}
 }
@@ -640,7 +659,7 @@
 
 .div-five{
     padding: 11px 15px;
-    background-color: rgb(167, 164, 164);
+    background-color:#13661e;
     width: 120px;
     height: 40px;
     text-align: center;
@@ -651,7 +670,7 @@
 }
 
 .off{
-    color: black;
+    color: white;
     text-decoration: none;
     font-size: 18px;
 }
@@ -696,9 +715,10 @@
 .txt-border{
     width: 130px;
     height: 50px;
-    padding: 13px 23px;
-    border: 4px solid white;
-    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f5218;
     margin-top: 60px;
     margin-left: 45%;
 }
