@@ -1,0 +1,184 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+    outline: none;
+}
+
+
+.first{
+    background-color: #13661e;
+    width: 100%;
+    z-index: 600;
+    position: fixed;
+}
+
+
+.para{
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 3px;
+}
+
+
+.first-p{
+    font-style: italic;
+}
+
+
+.but{
+    background-color: #22ca22;
+    padding: 8px  15px;
+    color: white;
+    border: none;
+    font-size: 15px;
+}
+
+.but:hover{
+    cursor: pointer;
+}
+
+ .nav-bar{
+    width: 100%;
+    position: fixed;
+    top: 28px;
+    display: flex;
+    flex-flow: row nowrap;
+    z-index: 500;
+    border-bottom: 2px solid rgb(224, 223, 223);
+}
+
+
+.nav-img{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+
+.hd-img{
+    width: 150px;
+    height: auto;
+}
+
+
+.nav-links{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+}
+
+.up{ 
+    float: right;
+    color: black;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 47px;
+    font-family: sans-serif;
+    border-bottom: 2px dotted black;
+}
+
+.down{
+    width: 100%;
+}
+
+
+.down ul{
+    float: right;
+    margin-right: 20px;
+    padding-top: 26px;
+}
+
+
+.down ul li{
+    display: inline-flex;
+    margin-right: 20px;
+    position: relative;
+    padding: 5px 0;
+}
+
+.down ul li a{
+    text-decoration: none;
+    color: #13661e;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+.down ul li .get-started {
+    background-color: #13661e;
+    padding: 10px  20px;
+    color: white;
+}
+
+
+.down ul li ul {
+    width: 100%;
+    background-color: #13661e;
+    padding-top: 0px;
+    position: absolute;
+    top: 33px;
+    display: none;
+}
+
+.down ul li ul li{
+    padding: 10px
+}
+
+
+.down ul li:hover ul{
+    display: block;
+}
+
+.down ul li ul li a{
+    color: white;
+}
+
+.bg-color{
+    position: relative;
+    background-color: rgb(230, 228, 228);
+    width: 100%;
+    height: 1050px;
+    
+}
+
+.first-box{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    top: 170px;
+    height: 400px;
+    background-color: green;
+    
+}
+
+.hd-one{
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-family: sans-serif;
+}
+
+.text-one{
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: white;
+    font-family: sans-serif;
+    padding-top: 50px;
+}
+
+.second-box{
+    position: absolute;
+    width: 70%;
+    margin-left: 15%;
+    top: 610px;
+    height: 400px;
+    background-color: green;
+}
