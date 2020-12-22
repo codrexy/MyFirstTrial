@@ -120,9 +120,9 @@
 .down ul li ul {
     width: 100%;
     background-color: #13661e;
-    padding-top: 0px;
     position: absolute;
-    top: 33px;
+    padding-top: 0;
+    top: 25px;
     display: none;
 }
 
@@ -266,7 +266,7 @@
 }
 
 .display{
-    background-color: rgb(128, 128, 253);
+    background-color: #9af0a5;
     position: absolute;
     bottom: 4px;
     width: 100%;
@@ -286,29 +286,29 @@
 
 .first-div:hover .display{
     display: block;
-    color: blue;
+    color: #13661e;
 }
 
 .first-div:hover .one-txt{
-    color: blue;
+    color:#13661e;
 }
 
 .second-div:hover .display{
     display: flex;
-    color: blue;
+    color: #13661e;
 }
 
 .second-div:hover .one-txt{
-    color: blue;
+    color: #13661e;
 }
 
 .third-div:hover .display{
     display: flex;
-    color: blue;
+    color: #13661e;
 }
 
 .third-div:hover .one-txt{
-    color: blue;
+    color: #13661e;
 }
 
 .one-txt{
@@ -734,48 +734,129 @@
     flex-flow: row nowrap;
     margin-top: 50px;
     width: 100%;
-    height: 250px;
+    height: 300px;
     border-bottom: 1px solid rgb(184, 181, 181);
     background-color: white;
 }
 
 .num-one{
-    width: 20%;
+    width: 23%;
     height: 100%;
-    background-color: white;
+    background-color: #2c2b2b;
+}
+
+.log{
+    width: 150px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.follow{
+    margin-left: 35px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    color: #ffff
+    
+}
+
+.social{
+    margin-top: 10px;
+}
+
+.media1{
+    height: 40px;
+    width: 30px;
+    border-radius: 4px;
+    margin-left: 35px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.media2{
+    height: 40px;
+    width: 35px;
+    border-radius: 4px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.media3{
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.last-txt{
+    color: white;
+    font-family: sans-serif;
+    margin-left: 35px;
+    padding-top: 15px;
 }
 
 .num-two{
-    width: 27%;
+    width: 20%;
     height: 100%;
-    background-color: white;
+    background-color: #2c2b2b;
     font-family: sans-serif;
-    font-size: 13px;
-    color: rgb(155, 151, 151);
-    padding-top: 35px;
-    padding-right: 10px;
+    padding-left: 45px;
+    
+}
+
+.about-us{
+    font-size: 23px;
+    color: #ffff;
+    padding-top: 30px;
+}
+
+.list1{
+    list-style: none;
+    padding: 15px  0;
+}
+
+.list1 li{
+    padding: 9px  0;
+    font-size: 15px;
+}
+
+.list1 li a{
+    color: #ffff;
+    text-decoration: none;
 }
 
 .num-three{
-    width: 25%;
+    width: 20%;
     height: 100%;
-    background-color: white;
+    background-color: #2c2b2b;
     padding-left: 20px;
-    padding-top: 35px;
     font-family: sans-serif;
     font-size: 20px;
     
 }
 
 .num-four{
-    width: 25%;
+    width: 20%;
     height: 100%;
-    background-color: white;
+    background-color: #2c2b2b;
     font-size: 13px;
     font-family: sans-serif;
-    padding-top: 35px;
-    color: rgb(155, 151, 151);
     padding-left: 35px;
+}
+
+.num-five{
+    width: 20%;
+    height: 100%;
+    background-color: #2c2b2b;
+    font-size: 13px;
+    font-family: sans-serif;
+    padding-top: 30px;
+}
+
+.stay{
+    font-size: 15px;
+    color: #ffff;
+    padding-bottom: 10px;
 }
 
 .a{
@@ -784,37 +865,25 @@
     color: #13661e;
 }
 
-.a-button{
-    font-size: 15px;
-    color: #13661e;
-    text-decoration: none;
-}
-
 .email{
-    width: 98%;
-    padding: 10px 5px;
+    width: 80%;
+    padding: 20px 10px;
     border-radius: 4px;
-    border: 1px solid rgb(77, 76, 76);
+    border: 1px solid rgb(173, 171, 171);
     font-family: sans-serif;
-}
-
-.names{
-    width: 48%;
-    margin-top: 7px;
-    display: flex;
-    flex-flow: row nowrap;
-    padding: 10px 5px;
-    border-radius: 4px;
-    border: 1px solid rgb(77, 76, 76);
-    font-family: sans-serif;
-    display: inline-block;
+    font-size: 17px;
 }
 
 .button{
-    border: 2px solid #13661e;
-    width: 110px;
-    padding: 5px 7px;
+    width: 70px;
+    padding: 9px 7px;
     margin-top: 20px;
+    cursor: pointer;
+    color: #ffff;
+    background-color: #13661e;
+    border: none;
+    font-size: 16px;
+    border-radius: 7px;
 }
 
 .end{
