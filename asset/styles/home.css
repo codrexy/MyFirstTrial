@@ -142,7 +142,7 @@
     top: 122px;
     left:0px;
     bottom:0px;
-    animation: image 15s ease infinite;
+    animation: image 20s ease infinite;
 }
 
 .image1{
@@ -226,6 +226,7 @@
     display: flex;
     flex-flow: row nowrap;
     width: 80%;
+    height: 260px;
     margin-left: 10%;
     margin-top: 40px;
     margin-bottom: 20px;
@@ -234,7 +235,6 @@
 
 .first-div{
     width: 350px;
-    height: 270px;
     background-color: white;
     border: 2px solid rgb(161, 160, 160);
 
@@ -242,7 +242,6 @@
 
 .second-div{
     width: 350px;
-    height: 270px;
     background-color: white;
     color: black;
     margin-left: 7%;
@@ -251,7 +250,6 @@
 
 .third-div{
     width: 350px;
-    height: 270px;
     background-color: white;
     margin-left: 6%;
     border: 2px solid rgb(161, 160, 160);
@@ -747,12 +745,12 @@
 .log{
     width: 150px;
     height: 70px;
-    margin-left: 35px;
-    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 35px;
 }
 
 .follow{
-    margin-left: 35px;
+    margin-left: 30px;
     padding-top: 10px;
     font-family: sans-serif;
     color: #ffff
@@ -760,38 +758,30 @@
 }
 
 .social{
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 100%;
+    height: 32px;
+    display: inline-flex;
 }
 
-.media1{
-    height: 40px;
+.media{
+    height: 30px;
     width: 30px;
-    border-radius: 4px;
-    margin-left: 35px;
-    margin-right: 5px;
+    border-radius: 50%;
     cursor: pointer;
-}
-
-.media2{
-    height: 40px;
-    width: 35px;
-    border-radius: 4px;
-    margin-right: 5px;
-    cursor: pointer;
-}
-
-.media3{
-    height: 40px;
-    width: 40px;
-    border-radius: 4px;
-    cursor: pointer;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 4px;
 }
 
 .last-txt{
     color: white;
     font-family: sans-serif;
-    margin-left: 35px;
-    padding-top: 15px;
+    margin-left: 30px;
+    padding-top: 20px;
 }
 
 .num-two{
