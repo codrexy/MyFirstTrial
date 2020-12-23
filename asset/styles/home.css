@@ -73,17 +73,6 @@
     background-color: white;
 }
 
-.up{ 
-    float: right;
-    color: black;
-    padding-top: 10px;
-    text-decoration: none;
-    font-size: 15px;
-    margin-right: 47px;
-    font-family: sans-serif;
-    border-bottom: 2px dotted black;
-}
-
 .down{
     width: 100%;
 }
@@ -140,8 +129,8 @@
 }
 
 .bg-img{
-    max-width: 1700px;
-    height: 600px;
+    width: auto;
+    height: 730px;
     position: relative;
     overflow: hidden;
 }
@@ -149,7 +138,6 @@
 .img{
     position: absolute;
     display: inline-flex;
-    width: 100%;
     height: 100%;
     top: 122px;
     left:0px;
@@ -157,22 +145,33 @@
     animation: image 15s ease infinite;
 }
 
+.image1{
+    position: relative;
+}
 
-/* @keyframes image {
-    0%{margin-left: -3000px;}
-    20%{margin-left: -3000px;}
-    40%{margin-left: -1350px;}
-    60%{margin-left: -1350px;}
+.image2{
+    position: relative;
+}
+
+.image3{
+    position: relative;
+}
+
+@keyframes image {
+    0%{margin-left: -200%;}
+    20%{margin-left: -200%;}
+    40%{margin-left: -100%;}
+    60%{margin-left: -100%;}
     80%{margin-left: 0px;}
     100%{margin-left: 0px;}
-} */
+}
 
 
 .enabling{
     text-align: center;
     font-size: 40px;
     font-family: sans-serif;
-    padding-top: 150px;
+    padding-top: 200px;
     font-size: 35px;
     color: white;
 }
@@ -387,21 +386,21 @@
 
 
 .clients{
-    background-color: #13661e;
-    width: 170px;
-    height: 40px;
+    background-color: #ffff;
+    width: 100%;
+    height: 100px;
     margin-top: 40px;
-    margin-left: 44%;
     margin-bottom: 30px;
-    padding: 10px  20px;  
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 
-.a-clients{
-    text-align: center;
-    text-decoration: none;
-    font-size: 18px;
+.txt-clients{
+    font-size: 40px;
     font-family: sans-serif;
-    color: white;
+    color: #13661e;
 }
 
 .a-clients:hover{
