@@ -73,6 +73,17 @@
     background-color: white;
 }
 
+.up{ 
+    float: right;
+    color: black;
+    padding-top: 10px;
+    text-decoration: none;
+    font-size: 15px;
+    margin-right: 47px;
+    font-family: sans-serif;
+    border-bottom: 2px dotted black;
+}
+
 .down{
     width: 100%;
 }
@@ -109,8 +120,8 @@
 .down ul li ul {
     width: 100%;
     background-color: #13661e;
+    padding-top: 0px;
     position: absolute;
-    padding-top: 0;
     top: 25px;
     display: none;
 }
@@ -125,62 +136,6 @@
 }
 
 .down ul li ul li a{
-    color: white;
-}
-
-.bg-img{
-    width: auto;
-    height: 730px;
-    position: relative;
-    overflow: hidden;
-}
-
-.img{
-    position: absolute;
-    display: inline-flex;
-    height: 100%;
-    top: 122px;
-    left:0px;
-    bottom:0px;
-    animation: image 20s ease infinite;
-}
-
-.image1{
-    position: relative;
-}
-
-.image2{
-    position: relative;
-}
-
-.image3{
-    position: relative;
-}
-
-@keyframes image {
-    0%{margin-left: -200%;}
-    20%{margin-left: -200%;}
-    40%{margin-left: -100%;}
-    60%{margin-left: -100%;}
-    80%{margin-left: 0px;}
-    100%{margin-left: 0px;}
-}
-
-
-.enabling{
-    text-align: center;
-    font-size: 40px;
-    font-family: sans-serif;
-    padding-top: 200px;
-    font-size: 35px;
-    color: white;
-}
-
-.text{
-    text-align: center;
-    font-size: 25px;
-    font-family: "Montserrat",sans-serif;
-    padding-top: 30px;
     color: white;
 }
 
@@ -203,119 +158,28 @@
     right: 26%;
 }
 
-.bg-main{
+.photo{
     position: relative;
-    height: 1000px;
+    top: 120px;
+    height: 200px;
     width: 100%;
-    background-color: rgb(219, 213, 213);
-    top: 110px;
-}
-
-.nxt-bg{
-    position: absolute;
-    height: 91%;
-    width: 100%;
-    background-color: #ffffff;
-    top: 5%;
-    display: flex;
-    flex-flow: row;
-}
-
-.one-bg{
-    width: 50%;
-    height: 100%;
-    background-color: #ffff;
-}
-
-.two-bg{
-    width: 45%;
-    height: 100%;
-    margin-right: 5%;
-    background-color: white;
-}
-
-.first-div{
-    width: 100%;
-    height: 250px;
-    background-color: #ffff;
-    display: inline-flex;
-    margin-top: 30px;
-}
-
-.one-cont{
-    width: 300px;
-    height: 100%;
-    background-color: #ffff;
-    box-shadow: 0px 0px 6px grey;
-    border-radius: 4px;
-}
-
-.two-cont{
-    width: 300px;
-    height: 100%;
-    margin-left: 5%;
-    background-color: #ffff;
-    box-shadow: 0px 0px 6px grey;
-    border-radius: 4px;
-}
-
-.location{
-    text-align: center;
-    font-family: sans-serif;
-    padding-bottom: 5px;
-}
-
-.ph-num{
-    text-align: center;
-    padding-top: 5px;
-    font-family: sans-serif;
-}
-
-.have-que{
-    font-size: 25px;
-    font-family: sans-serif;
-    padding-top: 50px;
-}
-
-.snd-msg{
-    color: #928c8c;
-    padding-top: 5px;
-    font-family: sans-serif;
-    font-size: 15px;
-}
-
-.full-name{
-    padding-top: 25px;
-    padding-bottom: 5px;
-    font-family: sans-serif;
-    color: #13661e;
-}
-
-.name-in{
-    width: 100%;
-    padding: 10px  10px;
-    font-size: 16px;
-    border: 1px solid grey;
-}
-
-.sub{
-    font-family: sans-serif;
-    padding: 7px  20px;
-    font-size: 15px;
-    margin-top: 30px;
-    float: right;
     background-color: #13661e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ph-txt{
     color: #ffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 30px;
 }
 
 
 .flutter{
     display: flex;
     flex-flow: row nowrap;
-    margin-top: 110px;
+    margin-top: 50px;
     width: 100%;
     height: 300px;
     border-bottom: 1px solid rgb(184, 181, 181);
