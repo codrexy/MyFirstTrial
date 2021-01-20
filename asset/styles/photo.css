@@ -179,45 +179,23 @@
 .ph-section{
     width: 90%;
     margin-left: 5%;
-    margin-top: 170px;
-    height: 400px;
-    background-color: blue;
-}
-
-.ph-division1{
-    height: 33.3%;
-    width: 100%;
-    background-color: white;
+    margin-top: 230px;
+    background-color: #ffff;
     display: flex;
-    flex-flow: row nowrap;
-}
-
-.ph-division2{
-    height: 33.3%;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-flow: row nowrap;
-}
-.ph-division3{
-    height: 33.3%;
-    width: 100%;
-    background-color: white;
-    display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
 }
 
 .img{
     height: 33.3%;
     width: 19%;
     cursor: pointer;
+    margin-left: 1%;
+    margin-bottom: 40px;
 }
 
-.img1{
-    height: 33.3%;
-    width: 19%;
-    margin-right: 2%;
-    cursor: pointer;
+.modal-img{
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -229,12 +207,12 @@
     left:0px;
     top:0;
     z-index: 700;
-    display: flex;
+    display: none;
     transition: .5s ease;
 }
 
-.hide{
-    display: none;
+.show{
+    display: flex;
 }
 
 
@@ -242,7 +220,7 @@
     width: 70%;
     height: 80%;
     background-color: #ffff;
-    position: absolute;
+    position: relative;
     margin-left: 15%;
     margin-top: 4.5%;
     transition: 1s  ease;
@@ -251,14 +229,22 @@
 .close{
     font-family: sans-serif;
     margin: 10px  20px;
-    float: right;
     cursor: pointer;
     z-index: 500;
+    color: black;
+    margin-top: 40%;
 }
 
 .close:hover{
     color: red;
     transition: color  .5s ease;
+}
+.close-box{
+    position: absolute;
+    left: 94%;
+    height: 5%;
+    width: 6%;
+    background-color: white;
 }
 
 .flutter{

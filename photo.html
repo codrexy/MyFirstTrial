@@ -50,79 +50,26 @@
         <img src="./asset/images/message.png" alt="" class="icon" width="30px" height="30px">
     </div>
     <div class="ph-section">
-        <div class="ph-division1">
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-        </div>
-        <div class="ph-division2">
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-        </div>
+        <script>
 
-        <div class="ph-division3">
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img1">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-            <div class="img">
-                <img src="./asset/images/43.jpg" alt="" height="">
-                <p class="img1-txt">collins</p>
-            </div>
-        </div>
+            
+            let i = 0;
+            let imgs= ['43.jpg','5.jpg','50.jpg','46.jpg','HARVOXX PNG.png','HARVOXX TECH HUB.png'];
+            
+            for (i;i<imgs.length; i++) {
+                document.write(`
+                <img onclick="first()" class="img" src="./asset/images/${imgs[i]}" alt="">
+                `)
+                
+            }
+        </script>
     </div>
     <div id="modal" class="modal-cont">
         <div class="modal">
-            <span onclick="close()" id="close" class="close">X</span>
-
-
+            <div class="close-box">
+                <span class="close">X</span>
+            </div>
+            <img class="modal-img" src="./asset/images/43.jpg" alt="">
         </div>
     </div>
     <div class="flutter">
