@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./asset/styles/photo.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./script/jquery.js"></script>
     <title>Photo</title>
 </head>
 <body>
@@ -51,16 +52,13 @@
     </div>
     <div class="ph-section">
         <script>
-
-            
             let i = 0;
-            let imgs= ['43.jpg','5.jpg','50.jpg','46.jpg','HARVOXX PNG.png','HARVOXX TECH HUB.png'];
+            let imgs= ['43.jpg','5.jpg','50.jpg','46.jpg','HARVOXX PNG.png','HARVOXX TECH HUB.png','1. Website.jpg','photo.jpg'];
             
             for (i;i<imgs.length; i++) {
                 document.write(`
-                <img onclick="first()" class="img" src="./asset/images/${imgs[i]}" alt="">
+                <img  class="img" src="./asset/images/${imgs[i]}" alt="">
                 `)
-                
             }
         </script>
     </div>
@@ -69,7 +67,13 @@
             <div class="close-box">
                 <span class="close">X</span>
             </div>
-            <img class="modal-img" src="./asset/images/43.jpg" alt="">
+            <div class="nxt-cont">
+                <img class="nxt-btn presser" src="./asset/images/right.png" alt="">
+            </div>
+            <div class="prev-cont">
+                <img class="prev-btn presser" src="./asset/images/right.png" alt="">
+            </div>
+            <img class="modal-img" src="hhh" alt="">
         </div>
     </div>
     <div class="flutter">
